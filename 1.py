@@ -1,3 +1,20 @@
+if True:
+    print("always")
+    print("트루라면 무조건 수행")
+if False:
+    print("false")
+    print("false라면 수행하지 않음")
+
+if false:
+    print("True")
+    print("True라면 내부는 모두 수행합니다")
+
+else:
+    print("False")
+    print("위조건들이 모두 false라면 실행.")
+
+print("Always")
+
 var1 = 1
 var2 = 2
 
@@ -7,6 +24,8 @@ if var1 == var2:
     print("var1과 var2가 같습니다.")
 if var1 < var2:
     print("var2가 더 큽니다")
+
+
 print("=====================")
 print("1. 게임 시작")
 print("2. 랭킹 확인")
@@ -15,4 +34,18 @@ print("=====================")
 user_input = input("원하는 동작을 입력하세요")
 
 if user_input == "1":
-    print("게임을 시작합니다.")1
+    print("게임을 시작합니다.")
+print("=====================")
+score = 70
+
+if score > 80:
+    print("A학점입니다.")
+elif score > 60:
+    print("B학점입니다.")
+elif score > 40:
+    print("C학점입니다.")
+elif score > 20:
+    print("D학점입니다.")
+elif score > 0:
+    print("낙제입니다.")
+print("=====================")
