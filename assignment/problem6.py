@@ -1,6 +1,5 @@
 password= "python123"
-a=0
-while a<1:
+while 1:
     tipe=input()
     if tipe==password:
         print("로그인 성공!")
