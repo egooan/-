@@ -33,4 +33,8 @@ class_scores = [ {
                    "정수진": {"국어": 88, "영어": 94, "수학": 90, "과학": 89} },
                  {
                    "한동석": {"국어": 60, "영어": 72, "수학": 65, "과학": 58} } ]
+sum=0
 average=class_scores[0]["김철수"]["국어"]
+for i in class_scores:
+    sum=class_scores[0]["김철수"][i]+sum
+
